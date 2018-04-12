@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E9EBEE;
+    font-family: Lato;
+}
+
+.controls {
+    width: auto;
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.button {
+    font-size: 100%;
+    position: relative;
+    text-align: center;
+    border-radius: 6px;
+    margin: 10px auto;
+    background-color: #4267B2;
+    color: white;
+    padding: 5px;
+    text-transform: uppercase;
+    width: 100px;
+}
+
+.stopwatch {
+    margin: auto;
+    padding: 10px;
+    font-size: 200%;
+    background: linear-gradient(to right, rgb(231, 211, 181), rgb(190, 197, 240));
+    box-shadow: 10px 10px #4c4b52;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    width: 170px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.results {
+    text-align: center;
+}
